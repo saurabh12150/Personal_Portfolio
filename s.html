@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="s.css" />
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h1>Hello, I'm Alex!</h1>
+    <p>Welcome to my personal portfolio website.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer skilled in HTML, CSS, and JavaScript. I enjoy building interactive websites and learning new technologies.</p>
+    <ul>
+      <li><strong>Education:</strong> B.Tech in Computer Science</li>
+      <li><strong>Skills:</strong> Web Design, JavaScript, Git</li>
+      <li><strong>Projects:</strong> Portfolio Website, Student Timetable Viewer</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" required></textarea><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="s.js"></script>
+</body>
+</html>
